@@ -88,12 +88,19 @@ main{
     
 }
 
-.section-title{
+.title{
     text-align: center;
-    margin-bottom: 30px;
     font-size: 30px;
     margin-bottom: 50px;
 }
+
+.section-title{
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 50px;
+    margin-top: 130px
+}
+
 
 .section-description{
     color: #757575;
@@ -112,10 +119,6 @@ main{
 }
 
 /* What i do styles */
-
-.what-i-do{
-    margin-top: 130px;
-}
 
 .skills-container{
     display: flex;
@@ -167,4 +170,36 @@ main{
 }
 .resume-button{
     text-align: center;
+    margin-top: 30px;
+}
+
+/* Contact styles */
+
+.contact{
+    display: flex;
+    gap: 100px;
+    background-color: #fff8f3;
+    padding: 130px 200px;
+}
+
+.connect p{
+    margin-bottom: 20px;
+}
+
+
+.contact-title{
+    font-size: 30px;
+    text-align: left;
+    margin-bottom: 50px;
+}
+
+.contact input, textarea{
+    margin-bottom: 24px;
+    border: 0;
+    width: 100%;
+    padding: 10px 30px;
+}
+
+input{
+    height: 60px;
 }
